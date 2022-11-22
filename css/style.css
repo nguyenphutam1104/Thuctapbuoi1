@@ -1,6 +1,9 @@
 .wrap{
     width: 100%;    
-
+    display: flex;
+}
+.one {
+  display:block;
 }
 .Line-4 {
     width: 186px;
@@ -13,7 +16,7 @@ body{
 }
 
 .The-Encompass-Platform-Seamlessly-Connects-the-Supply-Chain-Allowing-You-to {
-    width: 19%;
+    width: 50%;
     height: 214px;
     margin: 29px 85.5px 134px 376.5px;
     font-family: Poppins;
@@ -27,14 +30,23 @@ body{
     color: #1f2c40;
     float:left;
   }
+  [class*="two-"] {
+    display:flex;
+  }
+  .container-2, .container-4 {
+    margin-left:88px
+  }
   .content{
     width: 50%;
     float:right;
-    display:flex;
+    display:block;
+    margin:223.7px;
   }
+
   .container{
     width: 273px;
     display:inline-block;
+
 
 
   }
@@ -143,6 +155,9 @@ body{
     color: var(--brownish-grey);
   }
 @media screen and (max-width: 1440px){
+  .one {
+    width: 50%;
+  }
   .Line-4 {
     width: 186px;
     height: 2px;
@@ -150,19 +165,28 @@ body{
     background-color: #e03116;
   }
   .The-Encompass-Platform-Seamlessly-Connects-the-Supply-Chain-Allowing-You-to {
-    width:  26%;
+    width:  50%;
     margin: 29px 85.5px 134px 145.5px;
 
     
   }
   .content{
-    width: 55%;
+    width: 50%;
+    display:block;
+    margin: 273.8px 0px;
+  }
+  [class*="two-"] {
     display:flex;
-    margin: 0 0 7px;
-
+    padding: 0px 145px 0px 0px;
   }
 }
 @media screen and (max-width: 1024px){
+  .wrap {
+    display:block;
+  }
+  .one {
+    width: 100%;
+  }
   .Line-4 {
     width: 186px;
     height: 2px;
@@ -171,12 +195,12 @@ body{
   }
 
     .The-Encompass-Platform-Seamlessly-Connects-the-Supply-Chain-Allowing-You-to {
-        width:67%;
+        width:68%;
         height: 214px;
         margin: 29px 102px 51.9px 101px;
         font-family: Poppins;
         font-size: 36px;
-        font-weight: bold;
+        font-weight: bold;  
         font-stretch: normal;
         font-style: normal;
         line-height: 1.33;
@@ -185,16 +209,27 @@ body{
         color: #1f2c40;
       }
       .content{
-        width: 80%; 
-        float:right;
-        display:flex;
-        margin:51.9px 102px 130.1px 102px;
+        width: 100%; 
+        display:block;
+        margin:51.9px 0px 130.1px 102px;
+      }
+      [class*="two-"]{
+        padding:0px 102px 0px;
+      }
+      .container-2, .container-4 {
+        margin-left: 55px;
       }
 }
 @media only screen and (max-width: 768px){
+  .Line-4 {
+    width: 186px;
+    height: 2px;
+    margin: 161.9px 453px 29px 129px;
+    background-color: #e03116;
+  }
   .The-Encompass-Platform-Seamlessly-Connects-the-Supply-Chain-Allowing-You-to {
     width:62%;
-    height: 214px;
+    height: auto;
     margin: 29px 93px 64.1px 126px;
     font-family: Poppins;
     font-size: 36px;
@@ -206,17 +241,19 @@ body{
     text-align: left;
     color: #1f2c40;
   }
-  .two {
-width: 516px;
+  [class*="two-"]{
+    width: 100%;
+    display: block;
   }
   .content{
-    width: 516px; 
-    float:right;
+    width: 100%; 
     display:block;
-    margin: 7px 126px 47.5px;
   }
-  .container{
-    width: 516px;
+  .container-2, .container-4 {
+    margin-left: 0px;
   }
 
+  @media only screen and (max-width: 768px){
+
+  }
   }
